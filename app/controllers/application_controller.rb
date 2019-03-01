@@ -25,7 +25,7 @@ class ApplicationController < Sinatra::Base
 	end
 
 	post "/login" do
-		erb :success
+		erb :login
 	end
 
 	get "/success" do
