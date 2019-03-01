@@ -25,7 +25,7 @@ class ApplicationController < Sinatra::Base
 	end
 
 	post "/login" do
-		erb :login
+		redirect "/success"
 	end
 
 	get "/success" do
